@@ -22,7 +22,7 @@ int main()
 		read(fdc[0],&recv,sizeof(recv));
 		printf("Child: Received [%d]\n", recv);
 		recv = recv*3;
-		printf("Child: The number is now: [%d]\n", recv);
+		printf("Child: The number is now [%d]\n", recv);
 		printf("Child: Sending [%d] back\n", recv);
 		write(fdp[1],&recv,sizeof(recv));
 
