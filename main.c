@@ -1,7 +1,8 @@
-/*Brian Leung*/
+//Brian Leung made this
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+
 
 /*
 The child will multiply the number by 3
